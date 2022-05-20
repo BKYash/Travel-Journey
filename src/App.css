@@ -1,0 +1,113 @@
+
+/* * {
+  box-sizing: border-box;
+} */
+.App{
+    gap: 50px;
+    background-color: whitesmoke;
+    display: flex;        
+    flex-direction: column;
+}
+    
+.text{
+padding-top: 20px;
+width: 600px;
+}
+section{
+  padding:  100px 300px;
+}
+.navbar{
+  margin:0px 5px ;
+  
+  width: screen ;
+  height: 55px;
+  left: 0px;
+  top: 0px;
+  
+  border-radius : 10px 10px 0px 0px ;
+
+
+background: #d34343;
+}
+.Title{
+  position: absolute;
+width: 300px;
+height: 13px;
+left: 600px;
+top: 7px;
+
+
+font-family: 'Square Peg', cursive;
+font-size: 30px;
+display: inline-block;
+color: #FFFFFF;
+}
+.CardDetails{
+ 
+  height: 400px;
+  width: 1000px;
+  bottom: 100px;
+  
+  display: flex;
+  flex-wrap: nowrap ;
+  gap: 20px;
+  /* overflow-y: auto; */
+}
+
+.Link{
+  /* position: absolute;
+width: 280px;
+height: 13px;
+left: 247px;
+top: 119px; */
+
+
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 12px;
+/* identical to box height */
+
+text-decoration-line: underline;
+
+color: #918E9B;
+}
+.Location{
+  font-size: 40px;
+}
+.State{
+ 
+ font-family: 'Inter';
+ font-style: normal; 
+font-weight: 400;
+font-size: 20px;
+line-height: 12px;
+letter-spacing: 0.17em;
+padding-left: 10px;
+padding-right: 100px;
+
+
+color: #3e3c49;
+} 
+.images{
+  border-radius: 9px;
+  
+  height: 400px;
+  width: 300px;
+  border: 9px;
+  border-color: #d34343;
+  
+  
+  
+}
+.Pointer{
+  height: 15px;
+  width: 10px;
+}
+.Description{
+ padding-top: 40px;
+ width: 600px;
+ font-size: 20px;
+  
+}
+
